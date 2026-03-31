@@ -1,84 +1,138 @@
-🔐 Secure Password Manager (Java)
+# 🔐 Secure Password Manager (Java)
 
-📌 Overview
+##  Overview
 
-Secure Password Manager is a Java-based console application designed to help users safely store and manage their passwords. It allows users to add, view, and delete credentials while applying basic encoding for security.
+Secure Password Manager is a Java-based console application designed to help users securely store and manage their credentials. It provides a simple and structured way to add, view, and delete passwords while applying basic encoding for security.
 
-❗ Problem Statement
+---
 
-Managing multiple passwords manually or storing them in insecure places (like notes or browsers) can lead to serious security risks.
-This project solves that problem by providing a simple and structured way to store credentials securely and access them when needed.
+##  Problem Statement
 
-🚀 Features
-Master password authentication
-Add new credentials (website, username, password)
-View saved passwords
-Delete stored passwords
-Basic password encoding using Base64
-Simple console-based interface
+Managing multiple passwords manually or storing them in insecure locations (such as notes or browsers) can lead to serious security risks.
+This project addresses that issue by offering a secure and organized solution for password management using Java.
 
-🛠️ Technologies Used
-Java
-Object-Oriented Programming (OOP)
-File Handling
-Java Collections (Scanner)
-Base64 Encoding
+---
 
-📁 Project Structure
-PasswordManagerProject/
-│── Main.java
-│── PasswordService.java
-│── FileHandler.java
-│── passwords.txt
+##  Features
 
-⚙️ Setup Instructions
-1. Requirements
-Java JDK 8 or above
-Any IDE (VS Code / IntelliJ) or Terminal
-2. Clone the Repository
-git clone <your-repo-link>
-cd PasswordManagerProject
-3. Compile the Program
-javac *.java
-4. Run the Program
+* Master password authentication
+* Add new credentials (website, username, password)
+* View stored passwords
+* Delete saved passwords
+* Basic password encoding using Base64
+* Simple and user-friendly console interface
+
+---
+
+##  Technologies Used
+
+* Java
+* Object-Oriented Programming (OOP)
+* File Handling
+* Java Collections (Scanner)
+* Base64 Encoding
+
+---
+
+##  Project Structure
+
+```
+SecurePasswordManager/
+│── src/
+│   ├── Main.java
+│   ├── PasswordService.java
+│   ├── FileHandler.java
+│
+│── data/
+│   └── passwords.txt
+│
+│── README.md
+│── .gitignore
+```
+
+---
+
+##  Setup Instructions
+
+### 1. Requirements
+
+* Java JDK 8 or above
+* Any IDE (VS Code / IntelliJ) or Terminal
+
+### 2. Clone the Repository
+
+```
+git clone https://github.com/nisha-181206/secure-password-manager
+cd secure-password-manager
+```
+
+### 3. Compile the Program
+
+```
+javac -d . src/*.java
+```
+
+### 4. Run the Program
+
+```
 java Main
+```
 
-▶️ How to Use
-Run the program
-Enter the master password
-Choose options from the menu:
-Add Password
-View Passwords
-Delete Password
-Manage your credentials easily through the console
+---
 
-⚙️ How It Works
-User authentication is done using a master password
-Passwords are encoded using Base64 before storing
-Data is stored in a text file (passwords.txt)
-File handling is used to read, write, and delete records
-Modular design separates logic into different classes
+##  How to Use
 
-💾 Data Handling
-Uses file-based storage (passwords.txt)
-Data persists even after program restart
-Each record is stored in a structured format
+1. Run the program
+2. Enter the master password
+3. Choose an option from the menu:
 
-📚 Learning Outcomes
-Applied Object-Oriented Programming concepts
-Implemented file handling in Java
-Understood basic data encoding techniques
-Learned modular code design
-Improved problem-solving skills
+   * Add Password
+   * View Passwords
+   * Delete Password
+4. Manage your credentials easily through the console
 
-🔮 Future Improvements
-Implement advanced encryption (AES)
-Add search and update functionality
-Build a graphical user interface (GUI)
-Integrate database storage
-Add password strength checker
+---
 
-👩‍💻 Author
-Nisha 
-24BAI10441
-VIT Bhopal University
+##  How It Works
+
+* The user logs in using a master password
+* Passwords are encoded using Base64 before storage
+* Data is stored in a file (`data/passwords.txt`)
+* File handling is used to read, write, and delete records
+* Modular design separates logic into different classes
+
+---
+
+##  Data Handling
+
+* Uses file-based storage (`data/passwords.txt`)
+* Data persists even after program restarts
+* Each record is stored in a structured format
+
+---
+
+##  Learning Outcomes
+
+* Applied Object-Oriented Programming concepts
+* Implemented file handling in Java
+* Understood basic encoding techniques
+* Learned modular programming
+* Improved problem-solving skills
+
+---
+
+##  Future Improvements
+
+* Implement advanced encryption (AES)
+* Add search and update functionality
+* Build a graphical user interface (GUI)
+* Integrate database storage
+* Add password strength checker
+
+---
+
+##  Author
+
+- **Name:** Nisha  
+- **Registration Number:** 24BAI10441  
+-  VIT Bhopal University  
